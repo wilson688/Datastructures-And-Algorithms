@@ -46,6 +46,6 @@ It is a way to traverse through the entire graph and list all it's vertices usin
         }
 ```
 
-###Things to Remember
+### Things to Remember
 - Edges would be a 2D array list basically a Nx2 matrix where 1 is the all the sources node and 2nd is the destination node
   & N is the number of Vertices  

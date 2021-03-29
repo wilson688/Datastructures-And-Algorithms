@@ -8,19 +8,15 @@ import java.util.List;
 
 class MagicalCows {
 
-    static int solveMagicCow(List<Integer> cows, int day, int farms) {
+    static int solveMagicCow(List<Integer> cows, int day, int farms, int totalCows) {
         if(cows == null || cows.size() == 0) return 0;
         if(day == 0) return farms;
-        int totalCows = 0;
-        for(Integer cow: cows) {
-            totalCows += cow;
-        }
         return solveRecursive(totalCows, 0, day);
     }
 
     static int solveRecursive(int totalCows, int currDay, int days) {
 
-        if(currDay != 1) {
+        if(currDay > 1) {
             totalCows = totalCows*2;
         }
 
@@ -53,7 +49,7 @@ class MagicalCows {
 
         System.out.println();
         for (int i = 0; i < M; i++) {
-            System.out.println(solveMagicCow(cows, i, N));
+            System.out.println(solveMagicCow(cows, i, N, C));
         }
 
     }
