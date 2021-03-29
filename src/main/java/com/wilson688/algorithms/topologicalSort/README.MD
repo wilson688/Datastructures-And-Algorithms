@@ -1,13 +1,13 @@
-#TOPOLOGICAL SORT
+# TOPOLOGICAL SORT
 
-##Key Terminology
+## Key Terminology
 Source - a node with no incoming nodes and only outgoing nodes
 
 Drain - a node with multiple incoming nodes and no outgoing nodes
 
 Edges - a connection/path between a source and a destination/drain
 
-##What is Topological Sort?
+## What is Topological Sort?
 It is a way to traverse through the entire graph and list all it's vertices using given edge list
 
 ## How to do Topological Sort?
