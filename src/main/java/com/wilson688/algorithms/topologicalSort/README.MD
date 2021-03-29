@@ -1,4 +1,5 @@
-###TOPOLOGICAL SORT
+#TOPOLOGICAL SORT
+
 ##Key Terminology
 Source - a node with no incoming nodes and only outgoing nodes
 
