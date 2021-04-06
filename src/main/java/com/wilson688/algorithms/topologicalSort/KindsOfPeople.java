@@ -12,9 +12,6 @@ public class KindsOfPeople {
 
     static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
-    final static int MAX_R = 1000;
-    final static int MAX_C = 1000;
-
     final static String NEITHER = "neither";
     final static String BINARY = "binary";
     final static String DECIMAL = "decimal";
