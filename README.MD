@@ -7,3 +7,15 @@
 - [Grid Traveller](https://github.com/wilson688/Datastructures-And-Algorithms/blob/main/src/main/java/com/wilson688/algorithms/dp/GridTraveller.java)
 - [Knapsack](https://github.com/wilson688/Datastructures-And-Algorithms/blob/main/src/main/java/com/wilson688/algorithms/dp/Knapsack.java) 
 - [Magical Cows](https://github.com/wilson688/Datastructures-And-Algorithms/blob/main/src/main/java/com/wilson688/algorithms/dp/MagicalCows.java)
+
+
+## Math 
+
+- [Flip]()
+
+
+## Topological Sort 
+
+### [Theory]()
+
+- [10 Kinds of People]()
