@@ -31,6 +31,17 @@ public class ReverseLinkedList {
       return prev;
     }
 
+
+    public static ListNode reverseRecussion(ListNode head) {
+        if (head == null || head.next == null) return head;
+
+        ListNode firstHead = reverseRecussion(head.next);
+        head.next.next = head;
+        head.next = null;
+
+        return firstHead;
+    }
+
     public static void main(String[] args) {
         ListNode head = new ListNode(2);
         head.next = new ListNode(4);
@@ -40,7 +51,7 @@ public class ReverseLinkedList {
 
         // 2 4 6 8 10
         // 10 8 6 4 2
-        ListNode result = ReverseLinkedList.reverse(head);
+        ListNode result = ReverseLinkedList.reverseRecussion(head);
         System.out.print("Nodes of the reversed LinkedList are: ");
         while (result != null) {
             System.out.print(result.value + " ");
